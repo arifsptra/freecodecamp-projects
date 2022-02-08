@@ -1,0 +1,56 @@
+:root {
+  --color-white: #f1f1f2;
+  --color-gray: #dddddd;
+  --color-black: #000000;
+  --color-orange: #f1a20f;
+  --color-yellow: #f1c40f;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0px;
+  font-family: sans-serif;
+  line height: 1.4;
+  letter-spacing: 1px;
+  font-weight: 400;
+  background: var(--color-white);
+}
+
+/* Style For Header */
+#header {
+  padding: 0px 5rem;
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-gray);
+  position: fixed;
+}
+#header-img {
+  height: 3.5rem;
+}
+#nav-bar {
+  width: 30%;
+}
+.nav-link {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.nav-link a {
+  font-size: 1.6rem;
+  text-decoration: none;
+  color: var(--color-black);
+}
