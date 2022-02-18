@@ -38,6 +38,7 @@ a {
 }
 /* Style For Header */
 #header {
+  top: 0;
   position: fixed;
   padding: 0px 5rem;
   width: 100%;
@@ -109,4 +110,68 @@ nav > ul {
 
 .nav-link {
   font-size: 1.6rem;
+}
+
+/* Style for body content */
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 0 25px;
+  height: 40px;
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px var(--color-black) solid;
+  border-radius: 3px;
+  background: transparent;
+  cursor: pointer;
+}
+
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-top: 50px;
+}
+
+#hero > h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+#form {
+  text-align: center;
+}
+
+#hero input[type="email"] {
+  max-width: 275px;
+  width: 100%;
+  padding: 5px;
+}
+
+#hero input[type="submit"] {
+  max-width: 150px;
+  width: 100%;
+  height: 30px;
+  margin: 15px auto;
+  border: 0;
+  background: var(--color-yellow);
+}
+
+#hero input[type="submit"]:hover {
+  background: var(--color-orange);
+  transition: background 1s;
+}
+
+@media (max-width: 650px) {
+  #hero {
+    margin-top: 120px;
+  }
 }
