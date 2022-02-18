@@ -46,6 +46,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background: var(--color-white);
 }
 @media (max-width: 600px) {
   #header {
@@ -174,4 +175,60 @@ nav > ul {
   #hero {
     margin-top: 120px;
   }
+}
+
+/* Style for features */
+#features {
+  margin-top: 30px;
+}
+
+.grid {
+  display: flex;
+}
+
+#features .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: var(--color-orange);
+}
+
+@media (max-width: 550px) {
+  #features .icon {
+    display: none;
+  }
+}
+
+#features .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 125px;
+  width: 80vw;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  #features .desc {
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    height: 150px;
+  }
+}
+
+@media (max-width: 650px) {
+  #features {
+    margin-top: 0;
+  }
+}
+
+.desc > h2 {
+  font-size: 2.5rem;
+}
+
+.desc > p {
+  font-size: 1.5rem;
 }
