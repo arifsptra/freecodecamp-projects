@@ -244,3 +244,72 @@ nav > ul {
   max-width: 560px;
   width: 100%;
 }
+
+/* Style for pricing */
+.pricing {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pricing .product {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+  margin: 10px;
+  border: 1px solid var(--color-black);
+  border-radius: 3px;
+}
+
+.product > .level {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 15px 0;
+  color: var(--color-black);
+  background: var(--color-gray);
+  width: 100%;
+  text-align: center;
+}
+
+.product > h2 {
+  font-size: 2.5rem;
+  padding: 20px 0;
+}
+
+.product > ol {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+ol > li {
+  padding-bottom: 10px;
+}
+
+.product > .btn {
+  font-weight: 400;
+  font-size: 2rem;
+  border: none;
+  background: var(--color-yellow);
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.product > .btn:hover {
+  background: var(--color-orange);
+}
+
+@media (max-width: 800px) {
+  .pricing {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin: 0 auto;
+  }
+}
