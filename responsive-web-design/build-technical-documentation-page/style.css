@@ -57,3 +57,56 @@ html {
       border-bottom: 2px solid #000;
   }
 }
+
+/* Style for main-doc */
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+@media (max-width: 900px){
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+  }
+}
+.main-section > header {
+  font-size: 3rem;
+  padding: 5px 0px;
+}
+section article {
+  color: #555;
+  margin: 15px;
+  font-size: 1.6rem;
+}
+.main-section > p {
+  font-size: 1.6rem;
+  
+}
+section li {
+  margin: 15px 0px 0px 60px;
+}
+code {
+  display: block;
+  text-align: left;
+  white-space: pre-line;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 10px;
+}
+@media (max-width: 400px) {
+  code {
+    margin-left: -20px;
+    width: 100%;
+    padding: 15px;
+    padding-left: 10px;
+    padding-right: 40px;
+    min-width: 233px;
+  }
+}
