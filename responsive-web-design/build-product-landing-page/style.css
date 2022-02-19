@@ -313,3 +313,27 @@ ol > li {
     margin: 0 auto;
   }
 }
+
+#footer {
+  background: var(--color-gray);
+  margin-top: 30px;
+  padding: 20px;
+}
+
+#footer > ul {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.6rem;
+}
+
+#footer > ul > li {
+  padding: 0 10px;
+}
+
+#footer > span {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  color: #444;
+}
