@@ -195,6 +195,7 @@ nav > ul {
   color: var(--color-orange);
 }
 
+
 @media (max-width: 550px) {
   #features .icon {
     display: none;
@@ -226,9 +227,9 @@ nav > ul {
 }
 
 .desc > h2 {
-  font-size: 2.5rem;
+  font-size: 2.3rem;
 }
 
 .desc > p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
