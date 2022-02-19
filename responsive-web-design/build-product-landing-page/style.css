@@ -233,3 +233,14 @@ nav > ul {
 .desc > p {
   font-size: 1.3rem;
 }
+
+.video {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.video > iframe {
+  max-width: 560px;
+  width: 100%;
+}
