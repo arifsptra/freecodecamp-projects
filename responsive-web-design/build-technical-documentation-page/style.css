@@ -48,13 +48,13 @@ html {
 }
 @media (max-width: 900px) {
   #navbar {
-      position: relative;
+    position: relative;
     width: 100%;
   }
   #navbar > ul {
-      height: 210px;
-      border-top: 1px solid #000;
-      border-bottom: 2px solid #000;
+    height: 210px;
+    border-top: 1px solid #000;
+    border-bottom: 2px solid #000;
   }
 }
 
@@ -65,7 +65,7 @@ html {
   padding: 20px;
   margin-bottom: 110px;
 }
-@media (max-width: 900px){
+@media (max-width: 900px) {
   #main-doc {
     position: relative;
     margin-left: 0px;
@@ -82,7 +82,6 @@ section article {
 }
 .main-section > p {
   font-size: 1.6rem;
-  
 }
 section li {
   margin: 15px 0px 0px 60px;
