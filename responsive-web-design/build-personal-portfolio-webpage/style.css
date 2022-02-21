@@ -1,0 +1,103 @@
+:root {
+  --color-white: #f0f0f0;
+  --color-red: #be3144;
+  --color-blue: #45567d;
+  --color-gray: #303841;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* 62.5% = 10px */
+  scroll-behavior: smooth;
+}
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+/* Base Style */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+}
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 4.2rem;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: var(--color-white);
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+/* Style for Navbar */
+#navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--color-red);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: 10;
+}
+#navbar > .nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100%;
+  margin-right: 2rem;
+}
+#navbar .nav-list a {
+  display: block;
+  font-size: 2.2rem;
+  padding: 2rem;
+  cursor: pointer;
+}
+#navbar .nav-list a:hover {
+  background-color: var(--color-blue);
+}
+@media (max-width: 28.75em) {
+  #navbar > .nav-list {
+    justify-content: center;
+    margin-right: 0px;
+  }
+}
