@@ -1,6 +1,7 @@
 /* Style for global */
 :root {
   --gray: #f1f2f2;
+  --black: #343331;
   --white: #fff;
 }
 * {
@@ -19,13 +20,14 @@ html {
   margin: 2rem 1rem;
   padding: 5rem 1rem 2rem 1rem;
   border-radius: 0.4rem;
-  background: var(--gray);
+  background: var(--black);
 }
 
 /* Style for main title */
 #title {
   font-size: 4rem;
   margin-top: 2rem;
+  color: var(--white);
 }
 @media (max-width: 650px) {
   #title {
@@ -34,6 +36,8 @@ html {
 }
 .desc {
   font-size: 2rem;
+  color: var(--white);
+
 }
 
 /* Style for figure */
