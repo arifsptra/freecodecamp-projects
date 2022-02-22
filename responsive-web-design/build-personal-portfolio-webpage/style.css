@@ -195,3 +195,42 @@ img {
     transform: translateX(0);
     transition: transform 0.3s ease-out;
 }
+
+/* Style for contacts */
+#contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 2rem;
+  background-color: var(--color-gray);
+}
+.contact-header {
+  font-size: 6rem;
+}
+@media (max-width: 28.75em) {
+  .contact-header {
+    font-size: 4rem;
+  }
+}
+.contact-desc {
+  text-align: center;
+  font-weight: 200;
+  font-style: italic;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  margin-top: 4rem;
+  flex-wrap: wrap;
+}
+.btn-profile-link {
+  font-size: 2.4rem;
+  text-shadow: 2px 2px 1px #1f1f1f;
+  transition: transform 0.3s ease-out;
+}
+.btn-profile-link:hover {
+  transform: translateY(8px);
+}
