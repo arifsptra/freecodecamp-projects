@@ -24,26 +24,35 @@ html {
 
 /* Style for main title */
 #title {
-  font-size: 3rem;
+  font-size: 4rem;
   margin-top: 2rem;
 }
+@media (max-width: 650px) {
+  #title {
+    font-size: 3rem;
+  }
+}
 .desc {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /* Style for figure */
 #img-div {
-    padding: 2rem;
-    margin: 4rem auto;
-    width: 100%;
-    max-width: 900px;
-    background-color: var(--white);
-    border-radius: 0.4rem;
+  padding: 2rem;
+  margin: 4rem auto;
+  width: 100%;
+  max-width: 600px;
+  background-color: var(--white);
+  border-radius: 0.4rem;
 }
 #image {
-    border-radius: 0.4rem;
+  display: block;
+  border-radius: 0.4rem;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 #img-caption {
-    padding-top: 1rem;
-    font-size: 1.5rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
 }
