@@ -234,3 +234,25 @@ img {
 .btn-profile-link:hover {
   transform: translateY(8px);
 }
+
+/* Style for footer */
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 2rem;
+  background-color: var(--color-gray);
+  border-top: 0.4rem solid var(--color-red);
+}
+footer > p {
+  margin: 2rem;
+}
+footer > i {
+  vertical-align: middle;
+}
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
