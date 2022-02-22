@@ -1,6 +1,5 @@
 /* Style for global */
 :root {
-  --blue: #0088b9;
   --gray: #f1f2f2;
   --white: #fff;
 }
@@ -30,4 +29,21 @@ html {
 }
 .desc {
   font-size: 1.5rem;
+}
+
+/* Style for figure */
+#img-div {
+    padding: 2rem;
+    margin: 4rem auto;
+    width: 100%;
+    max-width: 900px;
+    background-color: var(--white);
+    border-radius: 0.4rem;
+}
+#image {
+    border-radius: 0.4rem;
+}
+#img-caption {
+    padding-top: 1rem;
+    font-size: 1.5rem;
 }
