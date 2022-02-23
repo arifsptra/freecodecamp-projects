@@ -37,7 +37,6 @@ html {
 .desc {
   font-size: 2rem;
   color: var(--white);
-
 }
 
 /* Style for figure */
@@ -81,4 +80,22 @@ html {
 }
 .tribute-info-article p {
   margin-bottom: 1rem;
+}
+
+/* Style for tribute-link */
+.tribute-link-paragraph {
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  padding-top: 1rem;
+  color: var(--white);
+  border-top: 1px solid #fff;
+  width: 100%;
+  max-width: 600px;
+}
+.tribute-link-paragraph a {
+  color: #0088b9;
+  text-decoration: none;
+}
+.tribute-link-paragraph a:hover {
+  color: #00aae8;
 }
