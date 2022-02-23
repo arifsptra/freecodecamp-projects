@@ -60,3 +60,25 @@ html {
   padding-top: 1rem;
   font-size: 1.5rem;
 }
+
+/* Style for tribute-info */
+#tribute-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+}
+.tribute-info-header {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.tribute-info-article {
+  text-align: justify;
+  width: 100%;
+  max-width: 600px;
+  font-size: 1.5rem;
+}
+.tribute-info-article p {
+  margin-bottom: 1rem;
+}
